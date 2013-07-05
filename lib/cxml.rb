@@ -2,6 +2,7 @@ require 'cxml/version'
 require 'cxml/errors'
 require 'time'
 require 'nokogiri'
+require 'commerce'
 
 module CXML
   autoload :Protocol,      'cxml/protocol'
