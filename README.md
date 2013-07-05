@@ -6,6 +6,14 @@ Ruby implementation of cXML protocol.
 
 Procotol specifications could be found here [http://xml.cxml.org/current/cXMLUsersGuide.pdf](http://xml.cxml.org/current/cXMLUsersGuide.pdf)
 
+## Parsing cXML
+
+To parse cXML, simply pass the raw text of the document to CXML.parse
+
+    CXML.parse("<xml namespace=...")
+
+This will return a well-constructed hash based on the conents of the document.
+
 ## Commerce
 
 cXML library can be used to handle inbound cXML requests via the Commerce.dispatch function.  E.g.
