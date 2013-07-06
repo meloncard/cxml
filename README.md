@@ -36,11 +36,11 @@ cXML library can be used to handle inbound cXML requests via the Commerce.dispat
 
 To build request documents, you can use the document builder.  E.g.
 
-    Commerce::ConfirmationRequest.new(type: 'reject').render
+    ConfirmationRequest.new(type: 'reject').render
 
 or send the response to a server (via RestClient)
 
-    Commerce::ShipNoticeRequest.new.send("http://example.com/cxml")
+    ShipNoticeRequest.new.send("http://example.com/cxml")
 
 ## Running Tests
 
