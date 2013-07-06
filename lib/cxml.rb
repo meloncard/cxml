@@ -3,6 +3,9 @@ require 'cxml/errors'
 require 'time'
 require 'nokogiri'
 require 'commerce'
+require 'cxml/documents/request_doc'
+require 'cxml/documents/confirmation_request'
+require 'cxml/documents/ship_notice_request'
 
 module CXML
   autoload :Protocol,      'cxml/protocol'
